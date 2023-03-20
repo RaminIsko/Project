@@ -24,3 +24,13 @@ string ConvertedArray (string[] array){
     return result;
 
 }
+
+// 3 коммит - Использование методов и решение задачи
+
+Write($"Введите числа строки пробел: ");
+string[] array = GetArray();
+
+WriteLine();
+
+string convertedArray = ConvertedArray(array);
+WriteLine($"Конвертированный массив: {convertedArray}");
